@@ -7,12 +7,66 @@
 
 body {
   font-style: normal;
-}
-
-header {
-  height: 100rem;
+  font-family: "Poppins", sans-serif;
 }
 
 #navbar {
+  width: 100rem;
+  height: 3rem;
   position: fixed;
+  display: flex;
+  background-color: gren;
+  z-index: 99;
+  transform: translateX(-1vh);
+  -webkit-box-shadow: 0px 6px 35px 0px rgba(0,0,0,0.75);
+}
+
+#navbar li {
+  background-color: rgb(255, 255, 255);
+  width: 125%;
+  height: 3.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar li a {
+  margin: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(122, 122, 122);
+  transition: color 150ms;
+}
+
+#navbar li a:visited{
+  color:rgb(122, 122, 122)
+}
+
+#navbar li a:hover{
+  color: black;
+}
+
+/* #welcome-section {
+  position: relative;
+  height: 45rem;
+  background-color: antiquewhite;
+} */
+
+#welcome-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-welcome {
+  padding: 0 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
