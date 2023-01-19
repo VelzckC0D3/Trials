@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 900px) {
   body {
     background-color: rgb(122, 122, 122);
@@ -6,12 +10,12 @@
 }
 
 body {
-  font-style: normal;
-  font-family: "Poppins", sans-serif;
-}
+    font-style: normal !important;
+    font-family: "Poppins", sans-serif;
+  }
 
 #navbar {
-  width: 100rem;
+  width: 100vw;
   height: 3rem;
   position: fixed;
   display: flex;
@@ -19,12 +23,13 @@ body {
   z-index: 99;
   transform: translateX(-1vh);
   -webkit-box-shadow: 0px 6px 35px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 35px 0px rgba(0,0,0,0.75);
 }
 
 #navbar li {
   background-color: rgb(255, 255, 255);
   width: 125%;
-  height: 3.5vw;
+  height: 4.5vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -46,12 +51,6 @@ body {
 #navbar li a:hover{
   color: black;
 }
-
-/* #welcome-section {
-  position: relative;
-  height: 45rem;
-  background-color: antiquewhite;
-} */
 
 #welcome-section {
   display: flex;
