@@ -60,6 +60,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(207, 207, 207, 0.452);
 }
 
 #container-welcome {
@@ -69,9 +70,17 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  -webkit-transition: all 200ms;
+}
+
+#container-welcome:hover {
 }
 
 /* PROJECTS-CONTENT */
+
+#ourProjects {
+  text-transform: uppercase;
+}
 
 #project-section {
   display: flex;
@@ -80,6 +89,7 @@ body {
   justify-content: center;
   box-shadow: 0px -12px 49px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px -12px 49px 0px rgba(0,0,0,0.15);
+  padding: 5rem 0 0 0;
 }
 
 #projects {
@@ -120,12 +130,91 @@ body {
   height: auto;
   box-shadow: 0px 0px 65px -12px rgba(0,0,0,0.75);
   -webkit-box-shadow: 0px 0px 65px -12px rgba(0,0,0,0.75);
+}
+
+.project-tile {
+  width: 25rem;
+  height: 25rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   transition: transform 300ms;
 }
 
-.project-picture:hover {
+.project-tile:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  color
+}
+
+.project-tile h2 {
+  color: white;
+  transition:  300ms;
+}
+
+.project-tile:hover h2{
+  color:black;
+}
+
+
+.project-button{
+  text-decoration: none;
+  pointer-events: ;
+}
+
+.project-button:visited{
+  color: black;
 }
 
 /* PROJECTS-CONTENT */
+
+/* WORK WITH US */
+
+#workWithUs {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem 10rem 8rem;
+  text-align: center;
+}
+
+/* WORK WITH US */
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  width: 98.9vw;
+  transform: translateX(-1.1vh);
+}
+
+#profile-link {
+  color: white;
+  margin: 2rem 1rem;
+}
+
+#profile-link2 {
+  text-decoration: none;
+  color: white;
+}
+
+#profile-link {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer h2 {
+  color: white;
+}
+
+/* FOOTER */
