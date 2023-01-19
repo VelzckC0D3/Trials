@@ -1,10 +1,18 @@
 @media (max-width: 900px) {
-    body {
-        background-color: rgb(122, 122, 122);
-        font-style: normal;
-    }
+  body {
+    background-color: rgb(122, 122, 122);
+    font-style: normal;
+  }
 }
 
 body {
-    font-style: normal;
+  font-style: normal;
+}
+
+header {
+  height: 100rem;
+}
+
+#navbar {
+  position: fixed;
 }
